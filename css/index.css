@@ -1,0 +1,710 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* banner area start */
+#banner-section {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.banner-texts-wrapper {
+    padding: 120px 0px;
+}
+
+.banner-texts-wrapper p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #F7F7F7;
+}
+
+.banner-texts-wrapper .first-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFF;
+}
+
+.banner-texts-wrapper .second-heading {
+    text-transform: uppercase;
+}
+
+
+
+/* banner area end */
+
+
+
+/* our clients area start */
+#our-clients-section .first-heading {
+    color: var(--black);
+    text-align: center;
+}
+
+#our-clients-section .second-heading {
+    text-align: center;
+}
+
+.partners-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.partners-wrapper img {
+    width: 170px;
+}
+
+.service-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.service-wrapper .card {
+    width: 380px;
+    background: #FFFF;
+    box-shadow: 6px 6px 40px rgba(0, 74, 127, 0.12);
+    border-radius: 6px;
+    border: none;
+    padding: 30px 25px;
+}
+
+.service-wrapper img {
+    width: 130px;
+    display: block;
+    margin: auto;
+}
+
+.service-wrapper h4 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+    margin: 10px 0px 20px 0px;
+}
+
+.service-wrapper a {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #EA4335;
+}
+
+/* our clients area start */
+
+
+
+/* how market behaves area start */
+#market-behaves-section .right-aside p {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #595959;
+}
+
+#market-behaves-section .right-aside ul li {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+#market-behaves-section .right-aside ul li img {
+    margin-right: 10px;
+}
+
+#market-behaves-section .left-aside img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#market-behaves-section .container>p {
+
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    color: #595959;
+
+}
+
+#market-behaves-section .four-types-of-trade img {
+    width: 100%;
+}
+
+.four-types-of-trade {
+    margin: 30px 0px;
+}
+
+/* how market behaves area end */
+
+
+/* price analysis course area start */
+.price-analysis-offers-wrapper {
+    background-image: url(../images/price-analysis-course-bg.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 0px;
+    margin-top: 40px;
+}
+
+.price-analysis-offers-wrapper .row {
+    row-gap: 30px;
+}
+
+.price-analysis-offers-wrapper .card {
+    width: 245px;
+    background: transparent;
+    color: #FFFF;
+    border: 1px solid #FFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 8px 10px;
+    margin-right: 10px;
+}
+
+.price-analysis-offers-wrapper .card p {
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.price-analysis-offers-wrapper .card.title h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #F3F0F3;
+}
+
+.price-analysis-offers-wrapper .card.title {
+    border: none;
+}
+
+.price-analysis-offers-wrapper .card img {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    background: #000;
+}
+
+.price-analysis-offers-wrapper .support-text,
+.intended-for-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #F3F0F3;
+    margin: 20px 0px;
+}
+
+.price-analysis-offers-wrapper .tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.price-analysis-offers-wrapper .tags-wrapper .tags {
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+
+
+}
+
+/* price analysis course area end */
+
+
+
+/* experience area start */
+#experience-section .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.counter-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+}
+
+.counter-wrapper h4 {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+/* experience area end */
+
+
+
+/* schedule for next batch area start */
+#schedule-batch-section {
+    padding: 40px 0px;
+}
+
+#schedule-batch-section .first-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.schedule-details {
+    display: flex;
+    justify-content: center;
+}
+
+#schedule-batch-section .card {
+    padding: 40px;
+    max-width: 70%;
+    width: 100%;
+    display: block;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 40px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    border: none;
+}
+
+#schedule-batch-section ul li {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+#schedule-batch-section ul li img {
+    margin-right: 8px;
+}
+
+#schedule-batch-section .enroll-now-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #5A00DD 0%, #6F18EE 101.15%);
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px 5px 5px 35px;
+}
+
+#schedule-batch-section .enroll-now-btn button {
+    padding: 5px 5px 5px 20px;
+    background: linear-gradient(91.76deg, #FF0000 4.79%, #FF6C01 99.25%);
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#schedule-batch-section .enroll-now-btn button i {
+    color: #FF6C01;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+/* schedule for next batch area end  */
+
+
+
+/* shiksha idology area start */
+.accordion-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-wrapper .accordion {
+    width: 48%;
+    position: relative;
+    height: min-content;
+}
+
+.accordion-wrapper .accordion-item {
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion-wrapper button.accordion-button {
+    background: #EFEFEF;
+    margin-bottom: 20px;
+}
+
+.accordion-wrapper .number {
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 11px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.accordion-wrapper .step {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #262626;
+}
+
+.accordion::before {
+    content: '';
+    display: block;
+    height: calc(100% - 22px);
+    background-color: red;
+    left: 34px;
+    width: 4px;
+    position: absolute;
+    top: 0;
+}
+
+.accordion-wrapper .accordion-body {
+    padding-left: 60px;
+}
+
+/* shiksha idology area end  */
+
+
+
+/* the instructor area start */
+#the-instructor-section .instructor-wrapper {
+    background: rgba(0, 74, 127, 0.1);
+    padding: 20px;
+    color: var(--black);
+}
+
+.instructor-wrapper img {
+    max-width: 300px;
+}
+
+.instructor-wrapper .about-instructor p {
+    width: 70%;
+    text-align: center;
+}
+
+/* the instructor area end */
+
+
+/* testimonial area start */
+.testimonial-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.testimonial-wrapper .testimonial {
+    max-width: 400px;
+    text-align: center;
+}
+
+.testimonial-wrapper .testimonial p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--black);
+}
+
+.testimonial-wrapper .testimonial img {
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.testimonial-wrapper .testimonial a {
+    color: var(--primary-color);
+}
+
+/* testimonial area end */
+
+
+
+
+
+
+/* get in touch area start  */
+#get-in-toouch-section {
+    position: relative;
+    overflow: hidden;
+}
+
+#get-in-toouch-section .clip-path-bg {
+    background: linear-gradient(85.34deg, #EA4335 0.3%, #3449B8 97.69%);
+    clip-path: polygon(0 50%, 100% 15%, 100% 100%, 0% 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#get-in-toouch-section .first-heading {
+    color: var(--primary-color);
+}
+
+.inputs-wrapper {
+    max-width: 500px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 6px 5px 40px rgba(0, 74, 127, 0.3);
+    border-radius: 12px;
+    padding: 30px;
+
+}
+
+.inputs-wrapper input,
+.inputs-wrapper textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    text-align: left;
+    user-select: none;
+    --webkit-user-select: none;
+    --moz-user-select: none;
+}
+
+.checkbox-wrapper #checkbox {
+    display: inline-block;
+    width: unset;
+    margin-right: 10px;
+}
+
+.communication-wrapper {
+    margin-bottom: 50px;
+}
+
+.communication-wrapper h2,
+.communication-wrapper h3,
+.communication-wrapper p,
+.communication-wrapper ul li a {
+    color: #fff;
+}
+
+.communication-wrapper ul li img {
+    margin-right: 10px;
+}
+
+#get-in-toouch-section .communication-wrapper .first-heading {
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.communication-wrapper p {
+    margin-bottom: 20px;
+}
+
+.communication-wrapper ul li {
+    margin-bottom: 10px;
+}
+
+/* get in touch area end  */
+
+
+
+
+/* responsive area start */
+@media screen and (max-width:1399px) {
+    .service-wrapper .card {
+        width: 350px;
+    }
+    .testimonial-wrapper .testimonial {
+        max-width: 350px;
+        text-align: center;
+    }
+    #schedule-batch-section .card {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .service-wrapper {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+
+    #market-behaves-section .left-aside img {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+
+    .four-types-of-trade {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    .price-analysis-offers-wrapper .row {
+        justify-content: space-around;
+    }
+
+    #experience-section .container {
+        justify-content: space-around;
+        row-gap: 50px;
+    }
+
+    #schedule-batch-section .card {
+        padding: 20px;
+    }
+
+    .schedule-details {
+        flex-direction: column;
+    }
+
+    #schedule-batch-section .enroll-now-btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        row-gap: 15px;
+    }
+
+    #schedule-batch-section .enroll-now-btn button {
+        padding: 5px 5px 5px 20px;
+        background: linear-gradient(91.76deg, #FF0000 4.79%, #FF6C01 99.25%);
+        border-radius: 30px;
+        color: #fff;
+        border: none;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #schedule-batch-section .first-heading {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    section#shiksha-idology img {
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:991px) {
+    .partners-wrapper img {
+        width: 150px;
+    }
+    .partners-wrapper {
+        justify-content: space-around;
+        row-gap: 40px;
+    }
+    #market-behaves-section .left-aside img {
+        width: 50%;
+    }
+    #market-behaves-section .container>p {
+        margin: 60px auto;
+    }
+    #schedule-batch-section .enroll-now-btn span {
+        text-align: center;
+    }
+    #schedule-batch-section .enroll-now-btn {
+        padding: 10px 20px;
+    }
+    .accordion-wrapper {
+        flex-direction: column;
+    }
+    .accordion-wrapper .accordion {
+        width: 100%;
+    }
+    #get-in-toouch-section .row {
+        row-gap: 50px;
+    }
+    .inputs-wrapper {
+        max-width: 500px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    #get-in-toouch-section .first-heading {
+        color: var(--primary-color);
+        text-align: center;
+    }
+    #get-in-toouch-section .col-lg-6:first-child p{
+        text-align: center;
+    }
+
+
+
+
+
+}
+@media screen and (max-width:767px) {
+    #schedule-batch-section .card {
+        padding: 40px;
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        margin: auto;
+        background: #FFFFFF;
+        box-shadow: 6px 4px 40px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: none;
+    }
+}
+
+/* responsive area end */

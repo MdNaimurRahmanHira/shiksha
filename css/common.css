@@ -1,0 +1,353 @@
+/* all the styles that are comonly used everypage will be added here */
+
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+section,
+footer {
+    padding: 60px 0px;
+}
+
+:root {
+    --primary-color: #EA4335;
+    --pri-hover-color: #dd3424;
+    --black: #262626;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    overflow-x: hidden;
+    padding-top: 75px;
+}
+
+p {
+    color: var(--black);
+    font-family: 'Open sans', sans-serif;
+}
+
+
+
+/* header area start */
+#header-section {
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 99;
+    box-shadow: 0px 2px 2px #26262620;
+}
+#header-section .navbar {
+    padding: 5px 5px 7px;
+}
+
+.navigation-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-wrapper .login-area .gmail-area a {
+    color: var(--black);
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper .login-area .gmail-area a img {
+    margin-right: 10px;
+}
+
+.sign-up-btn,
+.login-btn {
+    padding: 5px 20px;
+    color: #ffff;
+    transition: all .4s ease;
+    border: none;
+}
+
+.sign-up-btn:focus,
+.login-btn:focus {
+    background-color: var(--pri-hover-color);
+}
+
+.login-area {
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gmail-area {
+    display: flex;
+}
+
+.login-btn {
+    background-color: var(--primary-color);
+}
+
+.sign-up-btn {
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.login-btn:hover {
+    background-color: var(--pri-hover-color);
+}
+
+.sign-up-btn:hover {
+    background-color: var(--pri-hover-color);
+    border: 1px solid var(--pri-hover-color);
+}
+
+.navigation {
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation li a {
+    padding: 10px 15px;
+    color: var(--black);
+    text-transform: capitalize;
+}
+
+.navigation li a.active {
+    color: var(--primary-color);
+    position: relative;
+}
+
+.navigation li a.active::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    display: block;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+}
+
+.navigation .contact-us-btn {
+    padding: 5px 15px;
+    background: linear-gradient(93.93deg, #FF6400 11.01%, #EA4335 95.52%);
+    border-radius: 30px;
+    color: #fff;
+    transition: all .4s ease;
+    display: unset;
+}
+
+.navigation .contact-us-btn:hover {
+    background: linear-gradient(93.93deg, #EA4335 11.01%, #EA4335 95.52%);
+}
+
+/* header area end */
+
+
+/* heading */
+.second-heading {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #EA4335;
+}
+
+.first-heading {
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: var(--black);
+    line-height: 50px;
+}
+
+.third-heading {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 20px 0px;
+    width: 70%;
+}
+
+/* heading */
+
+/* buttons */
+.enroll-today-btn {
+    padding: 10px 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    transition: all .4s ease;
+    margin-top: 30px;
+
+}
+
+.enroll-today-btn i {
+    margin-left: 10px;
+}
+
+.enroll-today-btn:hover {
+    background-color: var(--pri-hover-color);
+    color: #fff;
+}
+
+/* buttons */
+
+
+
+
+
+/* footer */
+footer .brand-wrapper>img {
+    margin-bottom: 20px;
+}
+
+footer .brand-wrapper ul li {
+    margin-right: 10px;
+}
+
+footer .footer-navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-navigation li a {
+    display: block;
+    padding: 10px;
+    color: var(--black);
+}
+
+/* footer */
+
+
+/* responsive area start */
+@media screen and (max-width:1199px) {
+
+    /* responsive part of header area start */
+    button.navbar-toggler {
+        font-size: 28px;
+        outline: none;
+        color: var(--primary-color);
+    }
+
+    button.navbar-toggler:focus {
+        box-shadow: none;
+        color: var(--pri-hover-color);
+    }
+
+    .navigation-wrapper {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        background: #fff;
+        padding: 20px;
+        z-index: 9;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 100%;
+        transition: all .2s ease;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .navigation-wrapper.show {
+        top: 75px;
+        opacity: 1;
+        visibility: visible;
+        box-shadow: 0px 4px 4px 2px #26262620;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .navigation li a.active::after {
+        display: none;
+    }
+
+    .navigation li a {
+        display: block;
+        width: 100%;
+    }
+
+    .navigation .contact-us-btn {
+        display: block;
+    }
+
+    .login-area {
+        padding-left: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .gmail-area {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .login-signup-wrapper {
+        margin-top: 20px;
+    }
+
+    .login-signup-wrapper {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* responsive part of header area end */
+
+    /* heading styles start*/
+    .second-heading {
+        font-size: 20px;
+    }
+
+    .first-heading {
+        font-size: 28px;
+    }
+
+    /* heading styles end*/
+}
+@media screen and (max-width:767px) {
+    body {
+        padding-top: 60px;
+    }
+    .brand img {
+        width: 150px;
+    }
+    .navigation-wrapper {
+        padding: 20px 0px;
+        width: calc(100% + 25px);
+        left: 0;
+    }
+    .navigation-wrapper.show {
+        top: 59px;
+    }
+    .gmail-area {
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* responsive area end */
